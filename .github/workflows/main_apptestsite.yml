@@ -54,4 +54,4 @@ jobs:
           app-name: 'apptestsite'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E833A7085264DE9B5D98D823B08D36E }}
-          package: .
+          package: ./HostName.aspx
